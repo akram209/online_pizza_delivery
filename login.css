@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(240, 187, 118);
+}
+
+.title {
+    text-align: center;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+    padding: 10px 100px 10px 100px;
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.name {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+    display: flex;
+
+    height: 50px;
+    font-style: normal;
+    font-size: 20px;
+
+
+}
+
+input[name="name"] {
+    margin-left: 5px;
+
+    height: 30px;
+    width: 250px;
+
+
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+}
+
+.number {
+
+    margin-left: 32.3%;
+    display: flex;
+    margin-bottom: 30px;
+
+
+
+    font-size: 20px;
+
+}
+
+input[name="phonenumber"] {
+    margin-left: 5px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #926f6f;
+    background-color: #e9a362;
+    border-radius: 5px;
+}
+
+
+.gmail {
+    margin-left: 37.5%;
+    margin-bottom: 30px;
+    display: flex;
+
+
+
+    font-size: 20px;
+
+}
+
+
+
+input[name="gmail"] {
+    margin-left: 5px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid #926f6f;
+    background-color: #e9a362;
+    border-radius: 5px;
+}
+
+
+.date {
+    margin-left: 38.3%;
+    margin-right: 35%;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 20px;
+}
+
+input[name="date"] {
+
+    margin-left: 5px;
+    height: 30px;
+
+    border: 1px solid #926f6f;
+    background-color: #e9a362;
+    border-radius: 5px;
+}
+
+
+
+.time {
+
+    margin-left: 38%;
+    margin-right: 40%;
+    font-size: 20px;
+}
+
+input[name="time"] {
+    border: 1px solid #926f6f;
+    background-color: #e9a362;
+    border-radius: 5px;
+}
+
+.address {
+    margin-top: 30px;
+    display: block;
+    margin-left: 35.7%;
+    font-size: 20px;
+}
+
+input[name="address"] {
+
+    height: 100px;
+    width: 500px;
+    margin-left: 5px;
+    border: 1px solid #926f6f;
+    background-color: #e9a362;
+    border-radius: 5px;
+}
+
+
+
+input[name="send"] {
+    margin-left: 41.5%;
+    margin-top: 30px;
+    height: 50px;
+    width: 255px;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+
+}
+
+input[name="send"]:hover {
+
+    color: #000;
+    background-color: #e9a362;
+
+
+    font-size: larger;
+    font-weight: 600;
+
+
+
+}
+
+input[name='back'] {
+
+    height: 50px;
+    width: 255px;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+    margin-left: 41.5%;
+    margin-top: 20px;
+
+}
+
+input[name="back"]:hover {
+
+    color: #000;
+    background-color: #e9a362;
+
+
+    font-size: larger;
+    font-weight: 600;
+
+
+
+}

@@ -1,0 +1,688 @@
+body {
+    background-color: rgb(240, 187, 118);
+}
+
+.title {
+    text-align: center;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+    padding: 10px 100px 10px 100px;
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.checkinranch_vegetarian {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+
+
+
+}
+
+/* checkinranch */
+
+.checkinranch_vegetarian .font1 {
+    text-align: center;
+    padding: 50px 50px 30px 70px;
+    margin-right: 200px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    display: flex;
+    z-index: 0;
+
+
+
+}
+
+input[name="number_checkinranch"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin-left: 340px;
+    margin-bottom: 100px;
+    margin-top: 220px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+
+
+}
+
+
+select[ name="size_checkinranch"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 365px;
+    margin-left: 340px;
+
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+}
+
+
+
+/* vegetarian */
+.checkinranch_vegetarian .font2 {
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+
+
+}
+
+input[name="number_vegetarian"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 100px;
+    margin-top: 220px;
+    margin-left: 75%;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+}
+
+select[ name="size_vegetarian"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 365px;
+    margin-left: 75%;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+}
+
+
+/* checkin_BBQ */
+.checkin_BBQ_Pepperoni {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+    margin: 10px left;
+
+
+}
+
+.checkin_BBQ_Pepperoni .font3 {
+    text-align: center;
+    padding: 50px 50px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+    margin-right: 200px;
+}
+
+input[name="number_checkinBBQ"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 520px;
+    margin-left: 340px;
+}
+
+select[ name="size_checkinBBQ"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 665px;
+    margin-left: 340px;
+}
+
+
+
+/* peproni */
+.checkin_BBQ_Pepperoni .font4 {
+    text-align: center;
+    padding: 50px 40px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+input[name="number_Pepperoni"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 520px;
+    margin-left: 75%;
+}
+
+select[ name="size_Pepperoni"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-left: 75%;
+    margin-bottom: 100px;
+    margin-top: 665px;
+}
+
+
+/* margherita */
+.margherita_supersupreme {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+    margin: 10px left;
+
+
+}
+
+.margherita_supersupreme .font5 {
+    text-align: center;
+    padding: 50px 20px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+    margin-right: 200px;
+}
+
+input[name="number_margherita"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 820px;
+    margin-left: 340px;
+}
+
+select[ name="size_margherita"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 965px;
+    margin-left: 340px;
+}
+
+
+
+.margherita_supersupreme .font6 {
+    text-align: center;
+    padding: 50px 55px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+input[name="number_supersupreme"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 820px;
+    margin-left: 75%;
+}
+
+select[ name="size_supersupreme"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 965px;
+    margin-left: 75%;
+}
+
+
+
+
+.meetlover_BBQcheckinranch {
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+    margin: 10px left;
+
+
+}
+
+.meetlover_BBQcheckinranch .font7 {
+    text-align: center;
+    padding: 50px 77px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+    margin-right: 200px;
+}
+
+input[name="number_meetlover"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1120px;
+    margin-left: 340px;
+}
+
+select[ name="size_meetlover"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1265px;
+    margin-left: 340px;
+}
+
+
+
+.meetlover_BBQcheckinranch .font8 {
+    text-align: center;
+    padding: 50px 90px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+input[name="number_BBQcheckinranch"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1120px;
+    margin-left: 75%;
+}
+
+select[ name="size_BBQcheckinranch"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1265px;
+    margin-left: 75%;
+}
+
+
+
+
+.mixcheese_seafood {
+
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+    margin: 10px left;
+
+}
+
+.mixcheese_seafood .font9 {
+    text-align: center;
+    padding: 50px 50px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+    margin-right: 200px;
+
+}
+
+select[ name="size_mixcheese"] {
+    position: absolute;
+    top: 50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1465px;
+    margin-left: 340px;
+
+}
+
+input[name="number_mixcheese"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+
+
+    margin-bottom: 100px;
+    margin-top: 1420px;
+    margin-left: 340px;
+
+}
+
+
+
+
+
+.mixcheese_seafood .font10 {
+    text-align: center;
+    padding: 50px 105px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+input[name="number_seafood"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1420px;
+    margin-left: 75%;
+
+}
+
+select[ name="size_seafood"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1565px;
+    margin-left: 75%;
+}
+
+
+
+.vegeteriansupreme_spicycheckin {
+
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    padding: 50px 80px;
+    display: flex;
+    margin: 10px left;
+
+}
+
+.vegeteriansupreme_spicycheckin .font11 {
+    text-align: center;
+    padding: 50px 35px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: x-large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+    margin-right: 200px;
+
+}
+
+input[name="number_vegeteriansupreme"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1720px;
+    margin-left: 340px;
+}
+
+select[ name="size_vegeteriansupreme"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1865px;
+    margin-left: 340px;
+}
+
+
+.vegeteriansupreme_spicycheckin .font12 {
+    text-align: center;
+    padding: 50px 80px 30px 70px;
+    background-color: rgb(204, 121, 27);
+    font-size: large;
+    font-style: oblique;
+    font-weight: 600;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+input[name="number_spicycheckin"] {
+    position: absolute;
+    top: -50px;
+    width: 100px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 16px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1720px;
+    margin-left: 75%;
+}
+
+select[ name="size_spicycheckin"] {
+    position: absolute;
+    top: -50px;
+    width: 107px;
+    height: 50px;
+    margin: 20px 50px 20px 5px;
+    font-size: 14px;
+    border: 1px solid #926f6f;
+    border-radius: 5px;
+    background-color: #e9a362;
+    z-index: 1;
+    margin-bottom: 100px;
+    margin-top: 1865px;
+    margin-left: 75%;
+}
+
+
+/* ///////////////////////////////// */
+
+
+
+input[name="order"] {
+    width: 200px;
+    height: 70px;
+    margin-left: 38%;
+    padding: auto;
+    text-align: center;
+
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+    z-index: 1;
+
+
+}
+
+input[name="order"]:hover {
+    color: #000;
+    font-size: larger;
+    font-weight: 600;
+
+    background-color: #e9a362;
+
+}
+
+.warning {
+    position: absolute;
+    top: -50px;
+    z-index: 2;
+    margin-top: 110px;
+    margin-left: 35%;
+
+    padding: 50px;
+}

@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(240, 187, 118);
+}
+
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    color: #000;
+    background-color: #e9a362;
+
+
+
+
+}
+
+input[name="pay"] {
+
+    margin-left: 40%;
+    margin-top: 100px;
+
+
+    height: 50px;
+    width: 255px;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+}
+
+input[name="pay"]:hover {
+
+    color: #000;
+    background-color: #e9a362;
+
+
+    font-size: larger;
+    font-weight: 600;
+
+
+
+}
+
+
+input[name='back1'] {
+
+    height: 50px;
+    width: 255px;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+input[name="back1"]:hover {
+
+    color: #000;
+    background-color: #e9a362;
+
+
+    font-size: larger;
+    font-weight: 600;
+
+
+
+}
+
+input[name='back2'] {
+
+    height: 50px;
+    width: 255px;
+    color: rgb(138, 104, 11);
+    background-color: beige;
+
+    border: 5px solid rgb(230, 159, 7);
+    border-radius: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: large;
+    margin-left: 40%;
+    margin-top: 20px;
+
+}
+
+input[name="back2"]:hover {
+
+    color: #000;
+    background-color: #e9a362;
+
+
+    font-size: larger;
+    font-weight: 600;
+
+
+
+}
